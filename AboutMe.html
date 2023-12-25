@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutMe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        overflow-x: hidden;
+        overflow-y: hidden;
+        flex-wrap: wrap;
+        background-color: #081b29;
+
+    }
+
+    .navigation {
+        background-color: #112e42;
+        margin: 0%;
+        padding: 0%;
+        /* border: 2px solid red; */
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .leftname {
+        background-color: #112e42;
+        font-family: 'Poppins', sans-serif;
+
+        /* border: 2px solid red; */
+        width: 35vw;
+        height: 10vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    .navbar {
+        /* border: 2px solid red; */
+        width: 64.3vw;
+        height: 10vh;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-wrap: wrap;
+        /* margin-right: 40px; */
+    }
+
+    .leftname li a {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .LowerBody {
+        margin: 0%;
+        padding: 0%;
+        border: 2px solid red;
+        width: 100vw;
+        height: 88vh;
+    }
+
+    .navbar li {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        list-style: none;
+        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 3%;
+    }
+
+    #ContactMe {
+        margin-right: 60px;
+    }
+
+    .navbar li a {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* margin: 20px; */
+    }
+
+    .navbar li a:hover {
+        color: rgb(58, 151, 218);
+    }
+    .LowerBody{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Imagebox{
+  border: 2px solid red;
+  width: 20%;
+  height: 40%;
+
+    }
+</style>
+
+<body>
+    <div class="navigation">
+        <div class="leftname">
+            <li><a href="#">Naman</a></li>
+        </div>
+        <nav class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">AboutMe</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Skills</a></li>
+            <li id="ContactMe"><a href="#">Contact Me</a></li>
+        </nav>
+    </div>
+
+    <div class="LowerBody">
+       <div class="Imagebox">
+       </div>
+    </div>
+</body>
+
+</html>
